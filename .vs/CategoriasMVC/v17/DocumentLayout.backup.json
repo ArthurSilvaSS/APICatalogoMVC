@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\APIsWeb .NET\\WebApiLivros\\CategoriasMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BC93DE-6593-4251-9694-95E9AED7FFCB}|CategoriasMVC\\CategoriasMVC.csproj|d:\\apisweb .net\\webapilivros\\categoriasmvc\\categoriasmvc\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7BC93DE-6593-4251-9694-95E9AED7FFCB}|CategoriasMVC\\CategoriasMVC.csproj|solutionrelative:categoriasmvc\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BC93DE-6593-4251-9694-95E9AED7FFCB}|CategoriasMVC\\CategoriasMVC.csproj|d:\\apisweb .net\\webapilivros\\categoriasmvc\\categoriasmvc\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7BC93DE-6593-4251-9694-95E9AED7FFCB}|CategoriasMVC\\CategoriasMVC.csproj|solutionrelative:categoriasmvc\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7BC93DE-6593-4251-9694-95E9AED7FFCB}|CategoriasMVC\\CategoriasMVC.csproj|d:\\apisweb .net\\webapilivros\\categoriasmvc\\categoriasmvc\\views\\categorias\\criarnovacategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7BC93DE-6593-4251-9694-95E9AED7FFCB}|CategoriasMVC\\CategoriasMVC.csproj|solutionrelative:categoriasmvc\\views\\categorias\\criarnovacategoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\APIsWeb .NET\\WebApiLivros\\CategoriasMVC\\CategoriasMVC\\Views\\Categorias\\Index.cshtml",
+              "RelativeDocumentMoniker": "CategoriasMVC\\Views\\Categorias\\Index.cshtml",
+              "ToolTip": "D:\\APIsWeb .NET\\WebApiLivros\\CategoriasMVC\\CategoriasMVC\\Views\\Categorias\\Index.cshtml",
+              "RelativeToolTip": "CategoriasMVC\\Views\\Categorias\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T17:48:22.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CriarNovaCategoria.cshtml",
+              "DocumentMoniker": "D:\\APIsWeb .NET\\WebApiLivros\\CategoriasMVC\\CategoriasMVC\\Views\\Categorias\\CriarNovaCategoria.cshtml",
+              "RelativeDocumentMoniker": "CategoriasMVC\\Views\\Categorias\\CriarNovaCategoria.cshtml",
+              "ToolTip": "D:\\APIsWeb .NET\\WebApiLivros\\CategoriasMVC\\CategoriasMVC\\Views\\Categorias\\CriarNovaCategoria.cshtml",
+              "RelativeToolTip": "CategoriasMVC\\Views\\Categorias\\CriarNovaCategoria.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T17:38:11.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "D:\\APIsWeb .NET\\WebApiLivros\\CategoriasMVC\\CategoriasMVC\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "CategoriasMVC\\Controllers\\CategoriasController.cs",
+              "ToolTip": "D:\\APIsWeb .NET\\WebApiLivros\\CategoriasMVC\\CategoriasMVC\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "CategoriasMVC\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T17:25:14.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

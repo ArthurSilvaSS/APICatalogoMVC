@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CategoriasMVC.Models.CategoriaViwerModel>
+
+<h2>Categorias</h2>
+<hr />
+
+<!-- Botão para adicionar nova categoria -->
+<div>
+	<a asp-action="CriarNovaCategoria" class="btn btn-success">Adicionar Nova Categoria</a>
+</div>
+<br />
+
+<!-- Tabela para listar todas as categorias -->
+<table class="table table-striped table-bordered">
+	<thead>
+	<tr>
+		<th>ID</th>
+		<th>Nome</th>
+		<th>Descrição</th>
+		<th>Ações</th>
+	</tr>
+	</thead>
+	<tbody>
+	@if (Model != null && Model.Any())
+	{
+		@foreach (var categoria in Model)
+		{
+			<tr>
+				<td>@categoria.CategoriaId</td>
+				<td>@categoria.Nome</td>
+				<td>@categoria.ImagemUrl</td>
+				<td>
+					<!-- Botão de Editar -->
+					<a asp-action="" asp-route-id="" class="btn btn-primary btn-sm">Editar</a>
+
+					<!-- Botão de Deletar -->
+					<form asp-action="Delete" asp-route-id="" method="post" style="display:inline;">
+						<button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Tem certeza que deseja deletar esta categoria?');">
+							Deletar
+						</button>
+					</form>
+				</td>
+			</tr>
+		}
+	}
+	else
+	{
+		<tr>
+			<td colspan="4" class="text-center">Nenhuma categoria encontrada.</td>
+		</tr>
+	}
+	</tbody>
+</table>
