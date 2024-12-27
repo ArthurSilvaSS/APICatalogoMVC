@@ -44,6 +44,32 @@ namespace CategoriasMVC.Controllers
             ViewBag.Erro = "Erro ao criar Categoria";
             return View(categoriaVM);
         }
-    }
 
+        [HttpGet]
+        public async Task<IActionResult> AtualizarCategoria(int id)
+        {
+            var result = await _categoriaServices.GetCategoriaPorId(id);
+
+            if (result is null)
+                return View("Error");
+
+            return View(result);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AtualizarCategoria(CategoriaViwerModel categoriaVM)
+        {
+            if (!ModelState.IsValid)
+                return View(categoriaVM);
+
+            var result = await _categoriaServices.AtualizaCategoria(categoriaVM.CategoriaId, categoriaVM);
+
+            if (result)
+                return RedirectToAction(nameof(Index));
+
+            ViewBag.Erro = "Erro ao atualizar Categoria";
+            return View(categoriaVM);
+        }
+
+    }
 }

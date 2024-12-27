@@ -1,0 +1,27 @@
+﻿@model CategoriasMVC.Models.CategoriaViwerModel
+
+<h2>Editar Categoria</h2>
+
+@if (ViewBag.Erro != null)
+{
+    <div class="alert alert-danger">@ViewBag.Erro</div>
+}
+
+<form asp-action="AtualizarCategoria" method="post">
+    <input type="hidden" asp-for="CategoriaId" />
+
+    <div class="form-group">
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ImagemUrl"></label>
+        <input asp-for="ImagemUrl" class="form-control" />
+        <span asp-validation-for="ImagemUrl" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

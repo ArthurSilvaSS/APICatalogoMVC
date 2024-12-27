@@ -30,7 +30,9 @@
 				<td>@categoria.ImagemUrl</td>
 				<td>
 					<!-- Botão de Editar -->
-					<a asp-action="" asp-route-id="" class="btn btn-primary btn-sm">Editar</a>
+						<a asp-action="AtualizarCategoria" asp-route-id="@categoria.CategoriaId" class="btn btn-primary btn-sm">Editar</a>
+
+
 
 					<!-- Botão de Deletar -->
 					<form asp-action="Delete" asp-route-id="" method="post" style="display:inline;">
